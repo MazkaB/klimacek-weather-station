@@ -1,0 +1,49 @@
+# Flask and Web Framework
+Flask
+Flask-CORS
+Flask-SocketIO
+
+# Machine Learning and Data Science
+nixtla
+tensorflow
+keras
+numpy
+pandas
+scikit-learn
+
+# Database and Storage
+supabase
+psycopg2-binary
+
+# Data Processing and Utilities
+python-dotenv
+requests
+python-dateutil
+
+# API and JSON handling
+jsonschema
+
+# Async support
+eventlet
+
+# Math and Statistics
+scipy
+
+# Visualization (for backend processing)
+matplotlib
+
+# Time series processing
+statsmodels
+
+# Threading and multiprocessing
+APScheduler
+
+# Development and Testing
+pytest
+pytest-flask
+
+# Logging and Monitoring
+python-json-logger
+
+# Security
+cryptography

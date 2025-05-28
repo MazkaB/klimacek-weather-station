@@ -1,0 +1,84 @@
+{
+  "name": "klimacek-frontend",
+  "version": "1.0.0",
+  "description": "Klimacek Weather Station Frontend - React application for weather monitoring with AI predictions",
+  "private": true,
+  "homepage": ".",
+  "dependencies": {
+    "@heroicons/react": "^2.0.18",
+    "@supabase/supabase-js": "^2.38.4",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
+    "react-scripts": "5.0.1",
+    "recharts": "^2.8.0",
+    "web-vitals": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "vercel-build": "npm run build",
+    "lint": "eslint src --ext .js,.jsx",
+    "lint:fix": "eslint src --ext .js,.jsx --fix",
+    "format": "prettier --write src/**/*.{js,jsx,css,md}",
+    "analyze": "npm run build && npx bundle-analyzer build/static/js/*.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-unused-vars": "warn",
+      "no-console": "warn",
+      "react/prop-types": "off"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.6",
+    "autoprefixer": "^10.4.16",
+    "eslint": "^8.57.0",
+    "postcss": "^8.4.31",
+    "prettier": "^3.0.3",
+    "tailwindcss": "^3.3.5"
+  },
+  "proxy": "http://localhost:5000",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "keywords": [
+    "weather",
+    "monitoring",
+    "sensors",
+    "ai",
+    "lstm",
+    "predictions",
+    "react",
+    "tailwind",
+    "supabase"
+  ],
+  "author": "KlimaStation Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/klimastation/klimacek-frontend"
+  },
+  "bugs": {
+    "url": "https://github.com/klimastation/klimacek-frontend/issues"
+  }
+}
